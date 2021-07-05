@@ -97,5 +97,33 @@ body {
 /* === about__section === */
 #about__section{
     background: url(images/shapes/7.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+    display: flex;
+    padding: 0 10% 0 10%;
+    background-position: bottom;
+}
+
+.my__img--wrap{
+    width: 50%;
+    padding: 10% 10% 0 10%;
+}
+.my__img--wrap .my__img{
+    width: 100%;
+}
+
+.aboutUs__info{
+    width: 50%;
+    padding: 15% 10% 0 10%;
+}
+.heading__secondary{
+    color: #575757;
+    font-size: 4rem;
+    line-height: 8rem;
+    margin-bottom: 2rem;
+}
+
+.aboutUs__info .text__about{
+    line-height: 3rem;
+    font-size: 1.8rem;
+    margin-bottom: 7rem;
 }
