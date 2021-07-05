@@ -8,7 +8,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5%;/* 1rem = 10px, 10/16 = 62.5%; */
 }
 
 body {
@@ -16,6 +16,8 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+/* === header section === */
 .header__wrap{
     display: flex;
     justify-content: space-between;
@@ -26,10 +28,11 @@ body {
     font-size: 2.5rem;
     color: #575757;
 }
-.header__logo .logo_color{
+.color__orange{
     color: #FB994C;
 }
 
+/* === navigation === */
 .navigation__list{
     padding: 0;
     margin: 0;
@@ -53,10 +56,46 @@ body {
     transition: .3s ease-out;
 }
 
+
+/* === Button === */
 .btn{
     text-decoration: none;
     color: #fff;
     background: linear-gradient(94deg, rgba(251,150,75,1) 0%, rgba(254,76,47,1) 100%);
     padding: 1.5rem 3rem;
     border-radius: 5rem;
+}
+
+/* === hero__section === */
+#hero__section{
+    margin: 0 2%;
+    display: flex;
+}
+.heading__wrap{
+    color: #575757;
+    margin: 20vh 2% 0 0;
+    display: block;
+    width: 49%;
+}
+.heading__primary{
+    font-size: 5rem;
+    line-height: 7rem;
+    margin-bottom: 3rem;
+}
+.heading__wrap p {
+    margin-bottom: 6rem;
+    font-size: 2rem;
+}
+
+.hero__img--wrap{
+    width: 49%;
+}
+.hero__img--wrap .hero__img{
+    width: 100%;
+}
+
+/* === about__section === */
+#about__section{
+    background: url(images/shapes/7.png) no-repeat;
+    background-size: cover;
 }
