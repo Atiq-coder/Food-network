@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.header__logo{
+    font-size: 2.5rem;
+    color: #575757;
+}
+.header__logo .logo_color{
+    color: #FB994C;
+}
+
+.navigation__list{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__list .navigation__item{
+    display: inline-block;
+}
+
+.navigation__list .navigation__item .navigation__link:link,
+.navigation__list .navigation__item .navigation__link:visited{
+    text-decoration:none;
+    color: #575757;
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+.navigation__list .navigation__item .navigation__link:hover,
+.navigation__list .navigation__item .navigation__link:active{
+    color: #FB9433;
+    transition: .3s ease-out;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(94deg, rgba(251,150,75,1) 0%, rgba(254,76,47,1) 100%);
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+}
