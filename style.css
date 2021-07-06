@@ -90,6 +90,7 @@ body {
 .heading__wrap p {
     margin-bottom: 6rem;
     font-size: 2rem;
+    line-height: 3rem;
 }
 
 .hero__img--wrap{
