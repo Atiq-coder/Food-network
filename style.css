@@ -17,11 +17,14 @@ body {
     font-weight: 400;
 }
 
+
+
 /* === header section === */
 .header__wrap{
     display: flex;
     justify-content: space-between;
     padding: 2%;
+    margin: 0 2%;
 }
 
 .header__logo{
@@ -34,29 +37,28 @@ body {
 }
 
 /* === navigation === */
-.navigation__list{
+.header__navigation .navigation__list{
     padding: 0;
     margin: 0;
 }
 
-.navigation__list .navigation__item{
+.header__navigation .navigation__item{
     display: inline-block;
 }
 
-.navigation__list .navigation__item .navigation__link:link,
-.navigation__list .navigation__item .navigation__link:visited{
+.header__navigation .navigation__list .navigation__item .navigation__link:link,
+.header__navigation .navigation__list .navigation__item .navigation__link:visited{
     text-decoration:none;
     color: #575757;
     padding: 1rem 2rem;
     font-weight: 600;
 }
 
-.navigation__list .navigation__item .navigation__link:hover,
-.navigation__list .navigation__item .navigation__link:active{
+.header__navigation .navigation__list .navigation__item .navigation__link:hover,
+.header__navigation .navigation__list .navigation__item .navigation__link:active{
     color: #FB9433;
     transition: .3s ease-out;
 }
-
 
 /* === Button === */
 .btn{
@@ -67,9 +69,11 @@ body {
     border-radius: 5rem;
 }
 
+
+
 /* === hero__section === */
 #hero__section{
-    margin: 0 2%;
+    margin: 0 4%;
     display: flex;
 }
 .heading__wrap{
@@ -95,6 +99,8 @@ body {
     width: 100%;
 }
 
+
+
 /* === about__section === */
 #about__section{
     background: url(images/shapes/7.png) no-repeat;
@@ -114,7 +120,7 @@ body {
 
 .aboutUs__info{
     width: 50%;
-    padding: 15% 10% 0 10%;
+    padding: 12% 10% 0 10%;
 }
 
 .heading__secondary{
@@ -125,16 +131,18 @@ body {
 }
 
 .aboutUs__info .about__text{
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 .paragraph{
     line-height: 3rem;
     font-size: 1.8rem;
 }
 
+
+
 /* === recipie__section === */
 #recipie__section{
-    margin: 0 2%;
+    margin: 0 4%;
 }
 
 .our__recipie--wrap{
@@ -167,19 +175,67 @@ body {
     margin-bottom: 2rem;
 }
 
+
+
+/* === followers__section === */
 #followers__section{
-    display: flex;
-    padding: 15rem 0 8rem 0;
+    padding: 14rem 0 5rem 0;
 }
+.social__followers--wrap{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    justify-content: space-around;
+    box-shadow: 0px 0px 24px 0px #DCDCDC;
+    border-radius: 2rem;
+}
+.social__followers{
+    padding: 7rem 0;
+}
+.social__followers .total__followers{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
 
 
 /* === footer__section === */
 #footer__section{
+    margin-top: 5rem;
+}
+/* === footer__nav === */
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4%
+}
+.footer__nav .navigation__list{
+    padding: 0;
+    margin: 0;
+}
+
+.footer__nav .navigation__item{
+    display: block;
+}
+
+.footer__nav .navigation__list .navigation__item .navigation__link{
+    text-decoration:none;
+    color: #575757;
+    line-height: 3rem;
+}
+
+.line__height{
+    line-height: 5rem;
+}
+
+/* === footer__foot === */
+.footer__foot{
     background: #000;
     padding: 0 0 10rem 0;
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center;
 }
+
 .heading__tertiary{
     color: #575757;
     font-size: 3rem;
