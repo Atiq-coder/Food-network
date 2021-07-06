@@ -27,6 +27,7 @@ body {
 .header__logo{
     font-size: 2.5rem;
     color: #575757;
+    cursor: pointer;
 }
 .color__orange{
     color: #FB994C;
@@ -164,4 +165,26 @@ body {
 }
 .recipie__text{
     margin-bottom: 2rem;
+}
+
+#followers__section{
+    display: flex;
+    padding: 15rem 0 8rem 0;
+}
+
+
+/* === footer__section === */
+#footer__section{
+    background: #000;
+    padding: 0 0 10rem 0;
+    margin-top: 5rem;
+    text-align: center;
+}
+.heading__tertiary{
+    color: #575757;
+    font-size: 3rem;
+    line-height: 10rem;
+}
+.footer__text{
+    color: #fff;
 }
